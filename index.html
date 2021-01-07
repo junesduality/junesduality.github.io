@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/ed9f9812ae.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>CAPSULE NINE</title>
+</head>
+
+<body>
+  <!-- When the screen is 768px and smaller, the navbar will collapse -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a href="index.html" class="navbar-brand text-danger">CAPSULE NINE</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link text-danger">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://capsule-nine.myshopify.com/" target="_blank" class="nav-link">STORE</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">CONTENT</a>
+            <div class="dropdown-menu">
+              <a href="members.html" class="dropdown-item">MEMBERS<i class="fas fa-user-friends ml-2"></i></a>
+              <a href="https://soundcloud.com/discover" target="_blank" class="dropdown-item">MUSIC<i class="fas fa-music ml-2"></i></a>
+              <a href="gallery.html" class="dropdown-item">ART<i class="fas fa-paint-brush ml-2"></i></a>
+              <a href="https://www.twitch.tv/" class="dropdown-item" target="_blank">TWITCH<i class="fab fa-twitch ml-2"></i></a>
+              <a href="https://www.youtube.com/" class="dropdown-item" target="_blank">YOUTUBE<i class="fab fa-youtube ml-2"></i></a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">SOCIAL MEDIA</a>
+            <div class="dropdown-menu">
+              <a href="https://twitter.com/home" class="dropdown-item" target="_blank">TWITTER<i class="fab fa-twitter ml-2"></i></i></a>
+              <a href="https://www.instagram.com/capsulenine/?hl=en" class="dropdown-item" target="_blank">INSTAGRAM<i class="fab fa-instagram ml-2"></i></a>
+              <a href="https://www.facebook.com/" class="dropdown-item" target="_blank">FACEBOOK<i class="fab fa-facebook-f ml-2"></i></i></a>
+              <a href="https://discord.com/" class="dropdown-item" target="_blank">DISCORD<i class="fab fa-discord ml-2"></i></a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">ABOUT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel for announcements/showcase -->
+  <section id="showcase">
+    <div class="carousel slide" id="myCarousel" data-ride="carousel">
+      <!-- Generates indicators to show which image you're on -->
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-left mb-5">
+              <h1 class="display-3">Coming Soon</h1>
+              <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium enim, accusantium sit reprehenderit modi neque consequuntur ea. Doloribus, officiis quam.</p>
+              <a href="#" class="btn btn-outline-danger btn-lg text-white">Find Out More</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-center mb-5">
+              <h1 class="display-3">Coming Soon</h1>
+              <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium enim, accusantium sit reprehenderit modi neque consequuntur ea. Doloribus, officiis quam.</p>
+              <a href="#" class="btn btn-outline-danger btn-lg text-white">Find Out More</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Coming Soon</h1>
+              <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium enim, accusantium sit reprehenderit modi neque consequuntur ea. Doloribus, officiis quam.</p>
+              <a href="#" class="btn btn-outline-danger btn-lg text-white">Find Out More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--This portion adds 'next' and 'previous' buttons to the image carousel for a better UI -->
+      <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Industry Section -->
+  <section id="industries" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mb-4 text-center">
+          <a href="https://soundcloud.com/discover" target="_blank"><i class="fas fa-music fa-3x mb-3 text-danger"></i></a>
+          <h3 class="text-danger">Music</h3>
+          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem aliquid non laborum temporibus, ex neque.</p>
+        </div>
+        <div class="col-md-3 mb-4 text-center">
+          <a href="members.html"><i class="fas fa-gamepad fa-3x mb-3 text-danger"></i></a> 
+          <h3 class="text-danger">Gaming</h3>
+          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem aliquid non laborum temporibus, ex neque.</p>
+        </div>
+        <div class="col-md-3 mb-4 text-center">
+          <a href="https://capsule-nine.myshopify.com/" target="_blank"><i class="fas fa-tshirt fa-3x mb-3 text-danger"></i></a> 
+          <h3 class="text-danger">Fashion</h3>
+          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem aliquid non laborum temporibus, ex neque.</p>
+        </div>
+        <div class="col-md-3 mb-4 text-center">
+          <a href="gallery.html"><i class="fas fa-paint-brush fa-3x mb-3 text-danger"></i></a> 
+          <h3 class="text-danger">Art</h3>
+          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem aliquid non laborum temporibus, ex neque.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Motto Banner Area -->
+  <section id="motto-banner" class="p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-4">
+            <h1 class="display-4 font-italic">STAY <span class="red-text">WEIRD</span> </h1>
+            <p class="d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, minus!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!-- Member List/ BEE Bio -->
+<section id="memberlist" class="text-center">
+  <div class="container py-4">
+    <header>
+      <h1 class="display-3 py-3 font-italic text-danger border-bottom border-danger">WHO'S BEE?</h1>
+    </header>
+    <div class="row mt-3">
+      <div class="col-md-5">
+        <div id="accordian">
+          <div class="card"></div>
+          <img src="img/polaroid-placeholder.jpg" alt="Image not displayed" class="card-img-top img-fluid rounded-lg">
+          <div class="card-header">
+            <h5>
+              <a href="#collapse1" data-parent="#accordian" data-toggle="collapse" class="font-italic">
+                View More <i class="fas fa-arrow-down ml-2"></i>
+              </a>
+            </h5>
+          </div>
+          <div class="card-body collapse text-center" id="collapse1">
+              <a href="#" class="dropdown-item">TWITTER<i class="fab fa-twitter ml-2"></i></i> </a>
+              <a href="https://www.instagram.com/capsulenine/?hl=en" target="_blank" class="dropdown-item">INSTAGRAM<i class="fab fa-instagram ml-2"></i></a>
+              <a href="#" class="dropdown-item">FACEBOOK<i class="fab fa-facebook-f ml-2"></i></i></a>
+              <a href="#" class="dropdown-item">TWITCH<i class="fab fa-twitch ml-2"></i></a>
+              <a href="#" class="dropdown-item">DISCORD<i class="fab fa-discord ml-2"></i></a>
+              <a href="#" class="dropdown-item">YOUTUBE<i class="fab fa-youtube ml-2"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 align-self-start">
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus dicta corporis ipsum minus unde hic quae amet totam ullam et veniam nemo voluptate voluptatibus, aliquam exercitationem ut labore. Dolorum aliquam, commodi accusantium earum natus totam recusandae sequi iure sint praesentium harum ipsam itaque ab fuga error saepe architecto corrupti. Veritatis?</p>
+        <a href="members.html" class="btn btn-danger text-white btn-lg my-3 px-3 width">View Full Member List</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Art Gallery -->
+<section id="gallery" class="py-5">
+  <div class="container">
+    <h1 class="display-3 py-3 font-italic text-center text-white border-bottom">ART GALLERY</h1>
+    <p class="text-center font-italic text-danger">All art is solely owned by Capsule Nine</p>
+    <div class="row mb-4">
+      <div class="col-md-4">
+        <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
+          <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a href="https://source.unsplash.com/random/561x561" data-toggle="lightbox" data-gallery="img-gallery" data-height="561" data-width="561">
+          <img src="https://source.unsplash.com/random/561x561" alt="" class="img-fluid">
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a href="https://source.unsplash.com/random/562x562" data-toggle="lightbox" data-gallery="img-gallery" data-height="562" data-width="562">
+          <img src="https://source.unsplash.com/random/562x562" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-md-4">
+        <a href="https://source.unsplash.com/random/563x563" data-toggle="lightbox" data-gallery="img-gallery" data-height="563" data-width="563">
+          <img src="https://source.unsplash.com/random/563x563" alt="" class="img-fluid">
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a href="https://source.unsplash.com/random/564x564" data-toggle="lightbox" data-gallery="img-gallery" data-height="564" data-width="564">
+          <img src="https://source.unsplash.com/random/564x564" alt="" class="img-fluid">
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a href="https://source.unsplash.com/random/565x565" data-toggle="lightbox" data-gallery="img-gallery" data-height="565" data-width="565">
+          <img src="https://source.unsplash.com/random/565x565" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+    <a href="gallery.html" class="btn btn-outline-danger text-white">View Full Gallery</a>
+  </div>
+</section>
+
+
+
+
+
+
+
+  <!--Footer-->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <a id='scrollButton' href="#" class="btn btn-danger text-white d-md-none mb-3">Back To Top</a>
+      <div class="row">
+        <div class="col-md-6">
+          <p class="font-italic">Copyright &copy;<span id="year"></span> Capsule Nine</p>
+        </div>
+        <div class="col-md-6">
+          <p class="font-italic">Forward all business inquiries to: random_email@placeholder.com </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  <script>
+    //Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    //configure slider
+    $('.carousel').carousel({
+      interval: 6000,
+      pause: 'hover'
+    })
+
+    // Lightbox Init
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+
+    $(document).ready(function() {
+      $('#scrollButton').click(function() {
+        $('html').animate({scrollTop:0}, 800);
+      });
+    });
+    
+  </script>
+</body>
+</html>
