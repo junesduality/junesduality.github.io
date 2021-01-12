@@ -587,7 +587,7 @@
 <!--Footer-->
 <footer class="text-center pt-5">
   <div class="container">
-      <a href="#" class="btn btn-red mb-3">Back To Top</a>
+      <a id='scrollButton' href="#" class="btn btn-red mb-3">Back To Top</a>
     <div class="row">
       <div class="col-md-6">
         <p class="font-italic">Copyright &copy;<span id="year"></span> Capsule Nine</p>
@@ -607,6 +607,13 @@
   <script>
     //Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+    // Creates a smooth scrolling effect
+    $(document).ready(function() {
+      $('#scrollButton').click(function() {
+        $('html').animate({scrollTop:0}, 800);
+      });
+    });
   </script>
   
 </body>
