@@ -10,6 +10,17 @@ body {
 .text-red {
   color: var(--red) !important;
 }
+.text-red:hover {
+  color: #e70000 !important;
+}
+.btn-red {
+  color: white;
+  background-color: var(--red);
+}
+.btn-red:hover {
+  background-color: #e70000;
+  color: white;
+}
 .btn-outline-red {
   border-color: var(--red);
   color: var(--red);
@@ -17,9 +28,6 @@ body {
 }
 .btn-outline-red:hover {
   background-color: var(--red);
-}
-.text-red:hover {
-  color: #e70000 !important;
 }
 
 .bg-black {
