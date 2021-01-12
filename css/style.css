@@ -4,6 +4,26 @@ body {
 
 :root {
   --bg-black: black;
+  --red: #ff0000;
+}
+
+.text-red {
+  color: var(--red) !important;
+}
+.btn-outline-red {
+  border-color: var(--red);
+  color: var(--red);
+  transition: background-color 0.3s;
+}
+.btn-outline-red:hover {
+  background-color: var(--red);
+}
+.text-red:hover {
+  color: #e70000 !important;
+}
+
+.bg-black {
+  background-color: var(--bg-black);
 }
 
 .navbar .nav-link {
@@ -77,11 +97,6 @@ body {
   border: none;
 }
 
-#gallery {
-  border-bottom: solid 5px black;
-  background-color: var(--bg-black);
-}
-
 #page-header {
   height: 200px;
   background: url("../img/oil-bg2.jpg");
@@ -93,4 +108,13 @@ body {
 
 #about-footer {
   border-top: black 5px solid;
+}
+
+#accordion .card {
+  border-top: none;
+  border-radius: none;
+  border-bottom: solid 3px black;
+}
+.socialMediaIcons li {
+  display: inline-block;
 }

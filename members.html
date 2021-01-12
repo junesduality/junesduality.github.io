@@ -15,7 +15,7 @@
   <!-- When the screen is 768px and smaller, the navbar will collapse -->
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
-      <a href="index.html" class="navbar-brand text-danger">CAPSULE NINE</a>
+      <a href="index.html" class="navbar-brand"><img src="img/capsulelogo.png" alt="" class="img-fluid"></a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -28,9 +28,9 @@
             <a href="https://capsule-nine.myshopify.com/" target="_blank" class="nav-link">STORE</a>
           </li>
           <li class="nav-item dropdown active">
-            <a href="#" class="nav-link dropdown-toggle text-danger" data-toggle="dropdown">CONTENT</a>
+            <a href="#" class="nav-link dropdown-toggle text-red" data-toggle="dropdown">CONTENT</a>
             <div class="dropdown-menu">
-              <a href="members.html" class="dropdown-item text-danger">MEMBERS<i class="fas fa-user-friends ml-2"></i></a>
+              <a href="members.html" class="dropdown-item text-red">MEMBERS<i class="fas fa-user-friends ml-2"></i></a>
               <a href="https://soundcloud.com/discover" target="_blank" class="dropdown-item">MUSIC<i class="fas fa-music ml-2"></i></a>
               <a href="gallery.html" class="dropdown-item">ART<i class="fas fa-paint-brush ml-2"></i></a>
               <a href="https://www.twitch.tv/" class="dropdown-item" target="_blank">TWITCH<i class="fab fa-twitch ml-2"></i></a>
@@ -62,15 +62,530 @@
   </header>
 
 <!-- MEMBER LIST -->
-<section class="py-4" id="about">
-  <div class="container text-center">
-    <h1 class="my-5 mx-3 font-italic font-weight-bold">'CLASSIFIED'</h1>
-    <p class="font-italic">(coming soon)</p>
+<div id="accordion" class="accordion">
+  <!-- First card -->
+  <div class="card">
+    <!-- Separates the name from the social media icons using a flexbox -->
+    <div class="card-header row align-items-center pb-0">
+      <div class="col-md-6">
+        <h2 class="display-4 font-italic ">
+          <a href="#collapse1" data-parent="#accordion" data-toggle="collapse" class="text-decoration-none text-red">
+            PDoxx
+          </a>
+        </h2>
+      </div>
+      <div class="col-md-6 pb-0">
+        <ul class="socialMediaIcons pl-0 ml-0 mb-0">
+          <li>
+            <a href="https://twitter.com/PDoxx_" class="dropdown-item pl-0 h3 text-red" target="_blank"><i class="fab fa-twitter ml-2"></i></i></a>
+          </li>
+          <li>
+            <a href="https://www.twitch.tv/pdoxx_" class="dropdown-item" target="_blank"><i class="fab fa-twitch ml-2 h3 text-red"></i></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UC-CRjfS_8XE-OSd2Mqidm6w" class="dropdown-item" target="_blank"><i class="fab fa-youtube ml-2 h3 text-red"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="collapse show member-bio bg-black text-white" id="collapse1">
+      <div class="card-body row">
+        <div class="col-md-6">
+          <img src="" alt="">
+        </div>
+        <div class="col-md-6 ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quam est! Accusamus reprehenderit, facere mollitia ut nobis quos nam sunt ratione suscipit temporibus incidunt sequi qui, non, cupiditate unde officiis?
+        </div>
+      </div>
+    </div>
   </div>
-</section>
+
+<!-- Second Card -->
+  <div class="card">
+    <!-- Separates the name from the social media icons using a flexbox -->
+    <div class="card-header row align-items-center pb-0">
+      <div class="col-md-6">
+        <h2 class="display-4 font-italic ">
+          <a href="#collapse2" data-parent="#accordion" data-toggle="collapse" class="text-decoration-none text-red">
+            iHopSSB
+          </a>
+        </h2>
+      </div>
+      <div class="col-md-6 pb-0">
+        <ul class="socialMediaIcons pl-0 ml-0 mb-0">
+          <li>
+            <a href="https://twitter.com/HopSsb" class="dropdown-item pl-0 h3 text-red" target="_blank"><i class="fab fa-twitter ml-2"></i></i></a>
+          </li>
+          <li>
+            <a href="https://www.twitch.tv/ihopssb" class="dropdown-item" target="_blank"><i class="fab fa-twitch ml-2 h3 text-red"></i></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCCvFgIU5OBPLvsT4RnqkOTg" class="dropdown-item" target="_blank"><i class="fab fa-youtube ml-2 h3 text-red"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="collapse member-bio bg-black text-white" id="collapse2">
+      <div class="card-body row">
+        <div class="col-md-6">
+          <img src="" alt="">
+        </div>
+        <div class="col-md-6 ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quam est! Accusamus reprehenderit, facere mollitia ut nobis quos nam sunt ratione suscipit temporibus incidunt sequi qui, non, cupiditate unde officiis?
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Third Card -->
+  <div class="card">
+    <!-- Separates the name from the social media icons using a flexbox -->
+    <div class="card-header row align-items-center pb-0">
+      <div class="col-md-6">
+        <h2 class="display-4 font-italic ">
+          <a href="#collapse3" data-parent="#accordion" data-toggle="collapse" class="text-decoration-none text-red">
+            Slim
+          </a>
+        </h2>
+      </div>
+      <div class="col-md-6 pb-0">
+        <ul class="socialMediaIcons pl-0 ml-0 mb-0">
+          <li>
+            <a href="https://twitter.com/lilslimthicctv" class="dropdown-item pl-0 h3 text-red" target="_blank"><i class="fab fa-twitter ml-2"></i></i></a>
+          </li>
+          <li>
+            <a href="https://twitch.tv/lilslimthicc" class="dropdown-item" target="_blank"><i class="fab fa-twitch ml-2 h3 text-red"></i></a>
+          </li>
+          <li>
+            <a href="https://instagram.com/lilslimthicctv" class="dropdown-item" target="_blank"><i class="fab fa-instagram ml-2 h3 text-red"></i></a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@lilslimthic" class="dropdown-item" target="_blank"><i class="fab fa-tiktok ml-2 h3 text-red"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="collapse member-bio bg-black text-white" id="collapse3">
+      <div class="card-body row">
+        <div class="col-md-6">
+          <img src="" alt="">
+        </div>
+        <div class="col-md-6 ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quam est! Accusamus reprehenderit, facere mollitia ut nobis quos nam sunt ratione suscipit temporibus incidunt sequi qui, non, cupiditate unde officiis?
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fourth Card -->
+  <div class="card">
+    <!-- Separates the name from the social media icons using a flexbox -->
+    <div class="card-header row align-items-center pb-0">
+      <div class="col-md-6">
+        <h2 class="display-4 font-italic ">
+          <a href="#collapse4" data-parent="#accordion" data-toggle="collapse" class="text-decoration-none text-red">
+            SwaggyP
+          </a>
+        </h2>
+      </div>
+      <div class="col-md-6 pb-0">
+        <ul class="socialMediaIcons pl-0 ml-0 mb-0">
+          <li>
+            <a href="https://twitter.com/Swaggyp64" class="dropdown-item pl-0 h3 text-red" target="_blank"><i class="fab fa-twitter ml-2"></i></i></a>
+          </li>
+          <li>
+            <a href="https://www.twitch.tv/swaggypika64" class="dropdown-item" target="_blank"><i class="fab fa-twitch ml-2 h3 text-red"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="collapse member-bio bg-black text-white" id="collapse4">
+      <div class="card-body row">
+        <div class="col-md-6">
+          <img src="" alt="">
+        </div>
+        <div class="col-md-6 ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quam est! Accusamus reprehenderit, facere mollitia ut nobis quos nam sunt ratione suscipit temporibus incidunt sequi qui, non, cupiditate unde officiis?
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fifth Card -->
+  <div class="card">
+    <!-- Separates the name from the social media icons using a flexbox -->
+    <div class="card-header row align-items-center pb-0">
+      <div class="col-md-6">
+        <h2 class="display-4 font-italic ">
+          <a href="#collapse5" data-parent="#accordion" data-toggle="collapse" class="text-decoration-none text-red">
+            TheRedDragon
+          </a>
+        </h2>
+      </div>
+      <div class="col-md-6 pb-0">
+        <ul class="socialMediaIcons pl-0 ml-0 mb-0">
+          <li>
+            <a href="https://twitter.com/LittleAvontae?s=09" class="dropdown-item pl-0 h3 text-red" target="_blank"><i class="fab fa-twitter ml-2"></i></i></a>
+          </li>
+          <li>
+            <a href="https://youtube.com/channel/UCCVWMmBkxa9Xg3bk0jOyHvA" class="dropdown-item" target="_blank"><i class="fab fa-youtube ml-2 h3 text-red"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="collapse member-bio bg-black text-white" id="collapse5">
+      <div class="card-body row">
+        <div class="col-md-6">
+          <img src="" alt="">
+        </div>
+        <div class="col-md-6 ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quam est! Accusamus reprehenderit, facere mollitia ut nobis quos nam sunt ratione suscipit temporibus incidunt sequi qui, non, cupiditate unde officiis?
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sixth Card -->
+  <div class="card">
+    <!-- Separates the name from the social media icons using a flexbox -->
+    <div class="card-header row align-items-center pb-0">
+      <div class="col-md-6">
+        <h2 class="display-4 font-italic ">
+          <a href="#collapse6" data-parent="#accordion" data-toggle="collapse" class="text-decoration-none text-red">
+            Cip
+          </a>
+        </h2>
+      </div>
+      <div class="col-md-6 pb-0">
+        <ul class="socialMediaIcons pl-0 ml-0 mb-0">
+          <li>
+            <a href="https://twitter.com/cippns" class="dropdown-item pl-0 h3 text-red" target="_blank"><i class="fab fa-twitter ml-2"></i></i></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCDAiP9bkSNhUsi5ddBRSTlA" class="dropdown-item" target="_blank"><i class="fab fa-youtube ml-2 h3 text-red"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="collapse member-bio bg-black text-white" id="collapse6">
+      <div class="card-body row">
+        <div class="col-md-6">
+          <img src="" alt="">
+        </div>
+        <div class="col-md-6 ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quam est! Accusamus reprehenderit, facere mollitia ut nobis quos nam sunt ratione suscipit temporibus incidunt sequi qui, non, cupiditate unde officiis?
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Seventh Card -->
+  <div class="card">
+    <!-- Separates the name from the social media icons using a flexbox -->
+    <div class="card-header row align-items-center pb-0">
+      <div class="col-md-6">
+        <h2 class="display-4 font-italic ">
+          <a href="#collapse7" data-parent="#accordion" data-toggle="collapse" class="text-decoration-none text-red">
+            Spasies
+          </a>
+        </h2>
+      </div>
+      <div class="col-md-6 pb-0">
+        <ul class="socialMediaIcons pl-0 ml-0 mb-0">
+          <li>
+            <a href="https://twitter.com/Spasies_" class="dropdown-item pl-0 h3 text-red" target="_blank"><i class="fab fa-twitter ml-2"></i></i></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCAV38wzEN1GDbtpsarFXqcw" class="dropdown-item" target="_blank"><i class="fab fa-youtube ml-2 h3 text-red"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/kb_spaces/?hl=en" class="dropdown-item" target="_blank"><i class="fab fa-instagram ml-2 h3 text-red"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="collapse member-bio bg-black text-white" id="collapse7">
+      <div class="card-body row">
+        <div class="col-md-6">
+          <img src="" alt="">
+        </div>
+        <div class="col-md-6 ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quam est! Accusamus reprehenderit, facere mollitia ut nobis quos nam sunt ratione suscipit temporibus incidunt sequi qui, non, cupiditate unde officiis?
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Eighth Card -->
+   <div class="card">
+    <!-- Separates the name from the social media icons using a flexbox -->
+    <div class="card-header row align-items-center pb-0">
+      <div class="col-md-6">
+        <h2 class="display-4 font-italic ">
+          <a href="#collapse8" data-parent="#accordion" data-toggle="collapse" class="text-decoration-none text-red">
+            Chungie
+          </a>
+        </h2>
+      </div>
+      <div class="col-md-6 pb-0">
+        <ul class="socialMediaIcons pl-0 ml-0 mb-0">
+          <li>
+            <a href="https://twitter.com/BabyChungie" class="dropdown-item pl-0 h3 text-red" target="_blank"><i class="fab fa-twitter ml-2"></i></i></a>
+          </li>
+          <li>
+            <a href="https://youtube.com/channel/UCjjnFG34ocmP4E3nm2uKu_w" class="dropdown-item" target="_blank"><i class="fab fa-youtube ml-2 h3 text-red"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="collapse member-bio bg-black text-white" id="collapse8">
+      <div class="card-body row">
+        <div class="col-md-6">
+          <img src="" alt="">
+        </div>
+        <div class="col-md-6 ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quam est! Accusamus reprehenderit, facere mollitia ut nobis quos nam sunt ratione suscipit temporibus incidunt sequi qui, non, cupiditate unde officiis?
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ninth Card -->
+  <div class="card">
+    <!-- Separates the name from the social media icons using a flexbox -->
+    <div class="card-header row align-items-center pb-0">
+      <div class="col-md-6">
+        <h2 class="display-4 font-italic ">
+          <a href="#collapse9" data-parent="#accordion" data-toggle="collapse" class="text-decoration-none text-red">
+            MooSlaw
+          </a>
+        </h2>
+      </div>
+      <div class="col-md-6 pb-0">
+        <ul class="socialMediaIcons pl-0 ml-0 mb-0">
+          <li>
+            <a href="https://twitter.com/JoshStalinator?s=09" class="dropdown-item pl-0 h3 text-red" target="_blank"><i class="fab fa-twitter ml-2"></i></i></a>
+          </li>
+          <li>
+            <a href="https://youtube.com/channel/UCSfQ6-BvGyXYZsZDPtaHsSA" class="dropdown-item" target="_blank"><i class="fab fa-youtube ml-2 h3 text-red"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/jstaley01/" class="dropdown-item" target="_blank"><i class="fab fa-instagram ml-2 h3 text-red"></i></a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@lilslimthic" class="dropdown-item" target="_blank"><i class="fab fa-tiktok ml-2 h3 text-red"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="collapse member-bio bg-black text-white" id="collapse9">
+      <div class="card-body row">
+        <div class="col-md-6">
+          <img src="" alt="">
+        </div>
+        <div class="col-md-6 ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quam est! Accusamus reprehenderit, facere mollitia ut nobis quos nam sunt ratione suscipit temporibus incidunt sequi qui, non, cupiditate unde officiis?
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tenth Card -->
+  <div class="card">
+    <!-- Separates the name from the social media icons using a flexbox -->
+    <div class="card-header row align-items-center pb-0">
+      <div class="col-md-6">
+        <h2 class="display-4 font-italic ">
+          <a href="#collapse10" data-parent="#accordion" data-toggle="collapse" class="text-decoration-none text-red">
+            BMan
+          </a>
+        </h2>
+      </div>
+      <div class="col-md-6 pb-0">
+        <ul class="socialMediaIcons pl-0 ml-0 mb-0">
+          <li>
+            <a href="https://twitter.com/BmanDaGamer05" class="dropdown-item pl-0 h3 text-red" target="_blank"><i class="fab fa-twitter ml-2"></i></i></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCFPUIrBzUWq5CLVmZmc2CHQ" class="dropdown-item" target="_blank"><i class="fab fa-youtube ml-2 h3 text-red"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="collapse member-bio bg-black text-white" id="collapse10">
+      <div class="card-body row">
+        <div class="col-md-6">
+          <img src="" alt="">
+        </div>
+        <div class="col-md-6 ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quam est! Accusamus reprehenderit, facere mollitia ut nobis quos nam sunt ratione suscipit temporibus incidunt sequi qui, non, cupiditate unde officiis?
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Card 11 -->
+   <div class="card">
+    <!-- Separates the name from the social media icons using a flexbox -->
+    <div class="card-header row align-items-center pb-0">
+      <div class="col-md-6">
+        <h2 class="display-4 font-italic ">
+          <a href="#collapse11" data-parent="#accordion" data-toggle="collapse" class="text-decoration-none text-red">
+            DelcoDad
+          </a>
+        </h2>
+      </div>
+      <div class="col-md-6 pb-0">
+        <ul class="socialMediaIcons pl-0 ml-0 mb-0">
+          <li>
+            <a href="https://www.twitter.com/delcodadttv" class="dropdown-item pl-0 h3 text-red" target="_blank"><i class="fab fa-twitter ml-2"></i></i></a>
+          </li>
+          <li>
+            <a href="https://www.twitch.tv/delcodad" class="dropdown-item" target="_blank"><i class="fab fa-twitch ml-2 h3 text-red"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/delcodadttv" class="dropdown-item" target="_blank"><i class="fab fa-instagram ml-2 h3 text-red"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="collapse member-bio bg-black text-white" id="collapse11">
+      <div class="card-body row">
+        <div class="col-md-6">
+          <img src="" alt="">
+        </div>
+        <div class="col-md-6 ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quam est! Accusamus reprehenderit, facere mollitia ut nobis quos nam sunt ratione suscipit temporibus incidunt sequi qui, non, cupiditate unde officiis?
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 12 -->
+  <div class="card">
+    <!-- Separates the name from the social media icons using a flexbox -->
+    <div class="card-header row align-items-center pb-0">
+      <div class="col-md-6">
+        <h2 class="display-4 font-italic ">
+          <a href="#collapse12" data-parent="#accordion" data-toggle="collapse" class="text-decoration-none text-red">
+            Tekman526
+          </a>
+        </h2>
+      </div>
+      <div class="col-md-6 pb-0">
+        <ul class="socialMediaIcons pl-0 ml-0 mb-0">
+          <li>
+            <a href="https://www.twitch.tv/tekman526" class="dropdown-item pl-0" target="_blank"><i class="fab fa-twitch ml-2 h3 text-red"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="collapse member-bio bg-black text-white" id="collapse12">
+      <div class="card-body row">
+        <div class="col-md-6">
+          <img src="" alt="">
+        </div>
+        <div class="col-md-6 ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quam est! Accusamus reprehenderit, facere mollitia ut nobis quos nam sunt ratione suscipit temporibus incidunt sequi qui, non, cupiditate unde officiis?
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 13 -->
+  <div class="card">
+    <!-- Separates the name from the social media icons using a flexbox -->
+    <div class="card-header row align-items-center pb-0">
+      <div class="col-md-6">
+        <h2 class="display-4 font-italic ">
+          <a href="#collapse13" data-parent="#accordion" data-toggle="collapse" class="text-decoration-none text-red">
+            SaltyNF79
+          </a>
+        </h2>
+      </div>
+      <div class="col-md-6 pb-0">
+        <ul class="socialMediaIcons pl-0 ml-0 mb-0">
+          <li>
+            <a href="https://www.twitch.tv/SaltyNF79" class="dropdown-item pl-0" target="_blank"><i class="fab fa-twitch ml-2 h3 text-red"></i></a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@Saltynf_rl" class="dropdown-item" target="_blank"><i class="fab fa-tiktok ml-2 h3 text-red"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="collapse member-bio bg-black text-white" id="collapse13">
+      <div class="card-body row">
+        <div class="col-md-6">
+          <img src="" alt="">
+        </div>
+        <div class="col-md-6 ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quam est! Accusamus reprehenderit, facere mollitia ut nobis quos nam sunt ratione suscipit temporibus incidunt sequi qui, non, cupiditate unde officiis?
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 14 -->
+  <div class="card">
+    <!-- Separates the name from the social media icons using a flexbox -->
+    <div class="card-header row align-items-center pb-0">
+      <div class="col-md-6">
+        <h2 class="display-4 font-italic ">
+          <a href="#collapse14" data-parent="#accordion" data-toggle="collapse" class="text-decoration-none text-red">
+            Squintini
+          </a>
+        </h2>
+      </div>
+      <div class="col-md-6 pb-0">
+        <ul class="socialMediaIcons pl-0 ml-0 mb-0">
+          <li>
+            <a href="https://youtube.com/channel/UCUu8cTRtm2L0P8w37OEKTRA" class="dropdown-item pl-0" target="_blank"><i class="fab fa-youtube ml-2 h3 text-red"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/thegreatsquintini/" class="dropdown-item" target="_blank"><i class="fab fa-instagram ml-2 h3 text-red"></i></a>
+          </li>
+          <li>
+            <a href="https://vm.tiktok.com/ZMJvcvsLn/" class="dropdown-item" target="_blank"><i class="fab fa-tiktok ml-2 h3 text-red"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="collapse member-bio bg-black text-white" id="collapse14">
+      <div class="card-body row">
+        <div class="col-md-6">
+          <img src="" alt="">
+        </div>
+        <div class="col-md-6 ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quam est! Accusamus reprehenderit, facere mollitia ut nobis quos nam sunt ratione suscipit temporibus incidunt sequi qui, non, cupiditate unde officiis?
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+</div>
 
 <!--Footer-->
-<footer id="about-footer" class="text-center p-5">
+<footer class="text-center pt-5">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
